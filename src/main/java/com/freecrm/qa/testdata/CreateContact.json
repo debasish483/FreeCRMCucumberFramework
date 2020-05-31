@@ -1,0 +1,27 @@
+{
+	"CreateContact": [
+		{
+		  "MenuName" : "Contacts",
+		  "FirstName" : "Aarav",
+		  "LastName" : "DandeDas"
+		}
+	],
+	"CreateDeal":[
+		{
+			"Title" : "FreeCRMTestAUtomation",
+			"Probability" : "50",
+			"Amount" : "1000",
+			"Commission" : "10"
+		},
+		{
+			"SecondDealTitle" : "FreeCRMDealCreation",
+			"SecondDealProbability" : "50",
+			"SecondDealAmount" : "2000",
+			"SecondDealCommission" : "100"
+		
+		}
+		
+	
+	]
+}
+
