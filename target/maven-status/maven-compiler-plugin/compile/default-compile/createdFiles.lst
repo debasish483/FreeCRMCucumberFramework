@@ -1,0 +1,11 @@
+com\freecrm\qa\pages\FreeCrmHomePage.class
+com\freecrm\qa\stepdefinitions\LoginToFreeCRMStepDefinition.class
+com\freecrm\qa\pages\CreateContacts.class
+com\freecrm\qa\base\TestBase.class
+com\freecrm\qa\pages\CreateDeals.class
+com\freecrm\qa\pages\LoginToFreeCrm.class
+com\freecrm\qa\runner\FreeCRMTestRunner.class
+com\freecrm\qa\stepdefinitions\CreateDealsStepDefinition.class
+com\freecrm\qa\stepdefinitions\CreateContactStepDefinition.class
+com\freecrm\qa\stepdefinitions\NavigateToContactsPageStepDefinition.class
+com\freecrm\qa\util\TestUtil.class

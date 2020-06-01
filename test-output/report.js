@@ -48,42 +48,42 @@ formatter.match({
   "location": "LoginToFreeCRMStepDefinition.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 10137429444,
+  "duration": 9047462114,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToFreeCRMStepDefinition.page_title_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 38872065,
+  "duration": 62567747,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToFreeCRMStepDefinition.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 14012092499,
+  "duration": 11765411995,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToFreeCRMStepDefinition.user_types_the_username_and_password()"
 });
 formatter.result({
-  "duration": 5338625624,
+  "duration": 5578402224,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToFreeCRMStepDefinition.user_again_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 109932106,
+  "duration": 139186881,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToFreeCRMStepDefinition.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 15646257,
+  "duration": 18221382,
   "status": "passed"
 });
 formatter.uri("02_selectmenufreecrm.feature");
@@ -170,7 +170,7 @@ formatter.match({
   "location": "NavigateToContactsPageStepDefinition.user_is_on_the_homepage()"
 });
 formatter.result({
-  "duration": 16278157,
+  "duration": 23677859,
   "status": "passed"
 });
 formatter.match({
@@ -183,14 +183,14 @@ formatter.match({
   "location": "NavigateToContactsPageStepDefinition.user_clicks_on_the_required_menu(String)"
 });
 formatter.result({
-  "duration": 2143745737,
+  "duration": 2004800815,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToContactsPageStepDefinition.user_lands_on_the_contacts_page()"
 });
 formatter.result({
-  "duration": 51947519,
+  "duration": 79163473,
   "status": "passed"
 });
 formatter.uri("03_createcontactsfreecrm.feature");
@@ -292,14 +292,14 @@ formatter.match({
   "location": "CreateContactStepDefinition.user_is_on_the_contacts_page()"
 });
 formatter.result({
-  "duration": 3075277024,
+  "duration": 3123731814,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateContactStepDefinition.clicks_on_the_New_button()"
 });
 formatter.result({
-  "duration": 273732812,
+  "duration": 472317142,
   "status": "passed"
 });
 formatter.match({
@@ -316,14 +316,14 @@ formatter.match({
   "location": "CreateContactStepDefinition.fills_the_required_name_and_surname(String,String)"
 });
 formatter.result({
-  "duration": 3927676161,
+  "duration": 4987783821,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateContactStepDefinition.clicks_on_Save_button()"
 });
 formatter.result({
-  "duration": 120027371,
+  "duration": 222289733,
   "status": "passed"
 });
 formatter.scenario({
@@ -361,21 +361,12 @@ formatter.step({
         "Commission"
       ],
       "line": 19
-    },
-    {
-      "cells": [
-        "SecondDealTitle",
-        "SecondDealProbability",
-        "SecondDealAmount",
-        "SecondDealCommission"
-      ],
-      "line": 20
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
+  "line": 20,
   "name": "user clicks on Save button to create a deal",
   "keyword": "And "
 });
@@ -383,23 +374,35 @@ formatter.match({
   "location": "CreateDealsStepDefinition.new_contact_is_created()"
 });
 formatter.result({
-  "duration": 3045940156,
+  "duration": 3108260004,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateDealsStepDefinition.user_clicks_on_Deals_link()"
 });
 formatter.result({
-  "duration": 87531547,
+  "duration": 196216597,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateDealsStepDefinition.user_clicks_on_the_New_link()"
 });
 formatter.result({
-  "duration": 3105218245,
+  "duration": 3228406193,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateDealsStepDefinition.user_enters_title_probability_amount_and_commission(DataTable)"
+});
+formatter.result({
+  "duration": 4022899597,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CreateDealsStepDefinition.user_clicks_on_Save_button_to_create_a_deal()"
+});
+formatter.result({
+  "duration": 134269948,
+  "status": "passed"
+});
 });
